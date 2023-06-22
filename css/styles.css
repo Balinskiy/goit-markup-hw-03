@@ -74,6 +74,11 @@ body {
   |============================
 */
 
+.header {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
 .nav {
     font-weight: 500;
     font-size: 16px;
@@ -131,6 +136,7 @@ body {
   |============================
 */
 
+
 .main-title {
     font-size: 56px;
     line-height: 1.07;
@@ -163,8 +169,11 @@ body {
   |============================
 */
 
+
 .section-banner {
     background-color: var(--darkbanner-bcg);
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 .banner-btn {
@@ -186,19 +195,29 @@ body {
     color: var(--white-cl);
 }
 
-.feature-text {
+.section-advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.advantages-text {
     color: var(--contact-cl);
 }
 
-.feature-item {
+.advantages-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-cl);
 }
 
+.section-wedoing {
+    padding-bottom: 120px;
+}
+
 .section-team {
     background-color: var(--footer-cl);
+    padding-bottom: 120px;
 }
 
 .team-item {
@@ -260,6 +279,8 @@ body {
 .footer {
     background-color: var(--dark-cl);
     color: var(--footer-cl);
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 
 .footer-link {
