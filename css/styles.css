@@ -12,13 +12,10 @@
     --grey-body: #434455;
     --blue-hvr: #404bbf;
     --darkbanner-bcg: #2E2F42;
+    --primery-font-family: 'Roboto', sans-serif;
 }
 
 /* Reset */
-
-.list {
-    list-style: none;
-}
 
 .link {
     text-decoration: none;
@@ -32,6 +29,23 @@
     font-family: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /**
   |============================
@@ -39,9 +53,19 @@
   |============================
 */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primery-font-family);
     color: var(--grey-body);
     background-color: var(--white-cl);
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    outline: 1px solid red;
+    outline-offset: -2px;
 }
 
 /**
