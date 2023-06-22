@@ -1,0 +1,260 @@
+/**
+  |============================
+  | Root
+  |============================
+*/
+:root {
+    --dark-cl: #2e2f42;
+    --blue-cl: #4D5AE5;
+    --white-cl: #FFFFFF;
+    --contact-cl: #434455;
+    --footer-cl: #F4F4FD;
+    --grey-body: #434455;
+    --blue-hvr: #404bbf;
+    --darkbanner-bcg: #2E2F42;
+}
+
+/* Reset */
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.btn {
+    font-family: inherit;
+}
+
+
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--grey-body);
+    background-color: var(--white-cl);
+}
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--blue-cl);
+}
+
+.header-studio {
+    color: var(--dark-cl);
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--blue-hvr);
+}
+
+.address-link {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contact-cl);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--blue-hvr);
+}
+
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-cl);
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.second-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-cl);
+    text-align: center;
+}
+
+.third-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
+
+/**
+  |============================
+  | Webstudio page
+  |============================
+*/
+
+.section-banner {
+    background-color: var(--darkbanner-bcg);
+}
+
+.banner-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-cl);
+    background: var(--blue-cl);
+    cursor: pointer;
+}
+
+.banner-btn:hover,
+.banner-btn:focus {
+    background: var(--blue-hvr);
+}
+
+.btn-text {
+    color: var(--white-cl);
+}
+
+.feature-text {
+    color: var(--contact-cl);
+}
+
+.feature-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
+
+.section-team {
+    background-color: var(--footer-cl);
+}
+
+.team-item {
+    background-color: var(--white-cl);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contact-cl);
+}
+
+/**
+  |============================
+  | Porfolio page
+  |============================
+*/
+
+.portfolio-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--blue-cl);
+    background-color: var(--footer-cl);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--white-cl);
+    background: var(--blue-hvr);
+}
+
+.portfolio-second-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contact-cl);
+}
+
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+.footer {
+    background-color: var(--dark-cl);
+    color: var(--footer-cl);
+}
+
+.footer-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--blue-cl);
+    text-decoration: none;
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: var(--footer-cl);
+    letter-spacing: 0.02em;
+}
+
+.footer-studio {
+    color: var(--footer-cl);
+}
