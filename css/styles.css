@@ -48,6 +48,8 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -63,10 +65,9 @@ body {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 15px;
 
     outline: 1px solid red;
     outline-offset: -2px;
@@ -77,11 +78,6 @@ body {
   | Header
   |============================
 */
-
-.header {
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
-}
 
 .header-container {
     display: flex;
@@ -94,7 +90,6 @@ body {
     align-items: center;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-cl);
 }
@@ -109,7 +104,6 @@ body {
     font-family: var(--primery-font-family);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -121,11 +115,14 @@ body {
     color: var(--dark-cl);
 }
 
+.nav-item {
+    padding: 24px 0;
+}
+
 .nav-link {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.32px;
     color: var(--dark-cl);
 }
@@ -145,7 +142,6 @@ body {
     text-decoration: none;
     font-style: normal;
     font-size: 16px;
-    line-height: 24px;
     letter-spacing: 0.32px;
     color: var(--contact-cl);
 }
@@ -238,6 +234,7 @@ body {
 .section-advantages {
     padding-top: 120px;
     padding-bottom: 120px;
+    background-color: var(--white-cl);
 }
 
 .advantages-list {
@@ -261,6 +258,7 @@ body {
 
 .section-wedoing {
     padding-bottom: 120px;
+    background-color: var(--white-cl);
 }
 
 .wedoing-list {
@@ -271,6 +269,7 @@ body {
 .section-team {
     background-color: var(--footer-cl);
     padding-bottom: 120px;
+    background-color: var(--white-cl);
 }
 
 .team-list {
@@ -330,6 +329,9 @@ body {
 
 .portfolio-img {
     display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    /* width: calc((100% - 24px*2)/3); */
 }
 
 .portfolio-second-title {
