@@ -311,14 +311,15 @@ body {
 }
 
 .portfolio-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: var(--primery-font-family) font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--blue-cl);
     background-color: var(--footer-cl);
+    padding: 12px 24px;
+    border-radius: 4px;
 }
 
 .portfolio-btn:hover,
@@ -331,7 +332,15 @@ body {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    width: calc((100% - 24px*2)/3);
+}
+
+.portfolio-item {
+    width: calc((100% - 24px * 2) / 3);
+}
+
+.portfolio-title-text {
+    border: 1px solid #E7E9FC;
+    border-top: 0;
 }
 
 .portfolio-second-title {
