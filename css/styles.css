@@ -268,7 +268,7 @@ body {
 
 .section-team {
     background-color: var(--footer-cl);
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .team-title-text {
@@ -332,6 +332,7 @@ body {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    padding-bottom: 120px;
 }
 
 .portfolio-item {
