@@ -311,7 +311,8 @@ body {
 }
 
 .portfolio-btn {
-    font-family: var(--primery-font-family) font-weight: 500;
+    font-family: var(--primery-font-family);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -341,6 +342,7 @@ body {
 .portfolio-title-text {
     border: 1px solid #E7E9FC;
     border-top: 0;
+    padding: 32px 0;
 }
 
 .portfolio-second-title {
