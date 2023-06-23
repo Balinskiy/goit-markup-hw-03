@@ -269,17 +269,16 @@ body {
 .section-team {
     background-color: var(--footer-cl);
     padding-bottom: 120px;
-    background-color: var(--white-cl);
+}
+
+.team-title-text {
+    padding: 32px 0;
 }
 
 .team-list {
     display: flex;
     justify-content: space-between;
 
-}
-
-.team-img {
-    margin-bottom: 32px;
 }
 
 .team-item {
